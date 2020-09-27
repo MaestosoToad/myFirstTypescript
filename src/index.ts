@@ -22,3 +22,10 @@ export function doSomeStuff(
   return;
 }
 // TODO: more examples
+
+//Example calculator functionality
+function sum(a: number,b: number){
+  return a + b
+}
+
+console.log(sum(5,4))
