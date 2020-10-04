@@ -1,6 +1,6 @@
 {
   "name": "@carlosgutierrez/typescriptcalculator",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "To create a typescript package with calculator functionalities",
   "main": "index.js",
   "files": [
