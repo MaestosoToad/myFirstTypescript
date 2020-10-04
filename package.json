@@ -1,9 +1,11 @@
 {
-  "name": "myfirsttypescript",
-  "version": "1.0.0",
-  "description": "To create a typescript package",
+  "name": "@carlosgutierrez/typescriptcalculator",
+  "version": "0.0.1",
+  "description": "To create a typescript package with calculator functionalities",
   "main": "index.js",
-  "files": ["build/**/*"],
+  "files": [
+    "build/src/**/*"
+  ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "check": "gts check",
@@ -25,8 +27,11 @@
   },
   "homepage": "https://github.com/MaestosoToad/myFirstTypescript#readme",
   "devDependencies": {
+    "@types/jest": "^26.0.14",
+    "@types/node": "^13.11.1",
     "gts": "^2.0.2",
-    "typescript": "^3.8.3",
-    "@types/node": "^13.11.1"
+    "jest": "^26.4.2",
+    "ts-jest": "^26.4.1",
+    "typescript": "^3.8.3"
   }
 }

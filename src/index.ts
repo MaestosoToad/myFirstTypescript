@@ -1,31 +1,5 @@
-console.log('Try npm run check/fix!');
+import sum from './calculator/sum';
 
-const longString =
-  'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut aliquet diam.';
+const calculator = {sum};
 
-const trailing = 'Semicolon';
-
-const why = 'am I tabbed?';
-
-export function doSomeStuff(
-  withThis: string,
-  andThat: string,
-  andThose: string[]
-) {
-  //function on one line
-  if (!andThose.length) {
-    return false;
-  }
-  console.log(withThis);
-  console.log(andThat);
-  console.dir(andThose);
-  return;
-}
-// TODO: more examples
-
-//Example calculator functionality
-function sum(a: number, b: number) {
-  return a + b;
-}
-
-console.log(sum(5, 4));
+export = calculator;
